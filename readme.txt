@@ -3,8 +3,8 @@ Contributors: takien
 Donate link: http://takien.com/donate
 Tags: clipart,clip art,clip arts, cliparts,image,picture,open clipart
 Requires at least: 3.5
-Tested up to: 3.5.1
-Stable tag: 0.1
+Tested up to: 3.6
+Stable tag: 0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,6 +17,7 @@ ClipArt is a WordPress plugin to collect, organize, and insert clip art on your 
 = Some Features =
 * Easy to use, with TinyMCE button.
 * Search clipart and import directly from openclipart.org, no need to upload images.
+* No hotlinking, clipart are saved to your site.
 * Use clipart tags to organize clipart.
 
 = Requirements =
@@ -34,9 +35,9 @@ There are many ways to install this plugin, e.g:
 
 == Frequently Asked Questions ==
 
-= Why are there no FAQs besides this one? =
+= Why are there no FAQs? =
 
-Because you haven't asked one yet.
+Because this plugin is too cool.
 
 == Screenshots ==
 
@@ -48,6 +49,9 @@ Because you haven't asked one yet.
 == Upgrade Notice ==
 
 == Changelog ==
+
+= 0.2 =
+* Fixed: Compatibility issue with WordPress 3.6
 
 = 0.1 =
 * Initial release

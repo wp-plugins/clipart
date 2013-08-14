@@ -21,7 +21,7 @@
 				author   : 'takien',
 				authorurl : 'http://takien.com/',
 				infourl  : 'http://takien.com/',
-				version  : "0.1"
+				version  : "0.2"
 			};
 		}
 	});

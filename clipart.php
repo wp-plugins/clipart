@@ -4,7 +4,7 @@ Plugin Name: ClipArt
 Plugin URI: http://takien.com/
 Description: ClipArt is a WordPress plugin to collect, organize, and insert clip art on your WordPress site. ClipArt also allow you to search online clipart from <a target="_blank" href="http://openclipart.org">Open Clip Art Library</a> and download them to your library.
 Author: Takien
-Version: 0.1
+Version: 0.2
 Author URI: http://takien.com/
 */
 defined('ABSPATH') or die();
@@ -18,7 +18,6 @@ require_once(dirname(__FILE__).'/inc/paging.php');
  * Make plugin text translateable.
  * 
  */
-
 function clipart_plugin_l10n() {
 	load_plugin_textdomain( 'clipart', false, basename( dirname( __FILE__ ) ) . '/languages' );
 }
@@ -76,6 +75,7 @@ function clipart_admin_init() {
 	}
 	//tinymce dialog
 	if(isset($_GET['insert_clipart_dialog'])) {
+		define('IFRAME_REQUEST',true);
 		$plugin_url = plugins_url('/', __FILE__);
 		include(dirname(__FILE__).'/clipart-dialog.php');
 		exit;

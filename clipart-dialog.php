@@ -1,4 +1,5 @@
 <?php
+defined('IFRAME_REQUEST') or die();
 defined('ABSPATH') or die();
 header('Content-Type: text/html; charset=' . get_bloginfo('charset'));
 ?>
